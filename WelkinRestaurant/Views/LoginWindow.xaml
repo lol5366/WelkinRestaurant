@@ -1,0 +1,89 @@
+﻿<Window x:Class="WelkinRestaurant.Views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Welkin Restaurant" 
+        Height="391" Width="420"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="#1E1E1E">
+
+    <StackPanel Margin="30,20,30,15">
+
+        <!-- Логотип -->
+        <TextBlock Text="WELKIN" 
+                   FontSize="28" 
+                   FontWeight="Light"
+                   HorizontalAlignment="Center" 
+                   Foreground="#0078D4"
+                   Margin="0,0,0,5"/>
+
+        <TextBlock Text="RESTAURANT MANAGEMENT" 
+                   FontSize="10"
+                   HorizontalAlignment="Center" 
+                   Foreground="#888888"
+                   Margin="0,0,0,25"/>
+
+        <!-- Логин -->
+        <TextBlock Text="ЛОГИН" 
+                   FontSize="11" 
+                   Foreground="#888888" 
+                   Margin="0,0,0,4"/>
+
+        <TextBox x:Name="txtLogin" 
+                 Height="36" 
+                 Margin="0,0,0,12"
+                 Background="#2D2D2D"
+                 Foreground="White"
+                 BorderBrush="#3D3D3D"
+                 BorderThickness="1"
+                 Padding="12,0"
+                 VerticalContentAlignment="Center"
+                 FontSize="13"/>
+
+        <!-- Пароль -->
+        <TextBlock Text="ПАРОЛЬ" 
+                   FontSize="11" 
+                   Foreground="#888888" 
+                   Margin="0,0,0,4"/>
+
+        <PasswordBox x:Name="txtPassword" 
+                     Height="36" 
+                     Margin="0,0,0,12"
+                     Background="#2D2D2D"
+                     Foreground="White"
+                     BorderBrush="#3D3D3D"
+                     BorderThickness="1"
+                     Padding="12,0"
+                     VerticalContentAlignment="Center"
+                     FontSize="13"/>
+
+        <!-- Кнопка входа -->
+        <Button Content="ВОЙТИ" 
+                Height="36" 
+                Click="Login_Click"
+                Background="#0078D4"
+                Foreground="White"
+                FontWeight="SemiBold"
+                BorderThickness="0"
+                Margin="0,0,0,8"/>
+
+
+        <!-- Блок для сообщения об ошибке -->
+        <Border x:Name="errorBorder" 
+                Background="#2D2D2D" 
+                CornerRadius="6" 
+                Padding="10,8" 
+                Margin="0,5,0,0"
+                BorderBrush="#E81123" 
+                BorderThickness="1"
+                Visibility="Collapsed">
+            <TextBlock x:Name="txtError" 
+                       Foreground="#E81123" 
+                       HorizontalAlignment="Center" 
+                       FontSize="12"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"/>
+        </Border>
+
+    </StackPanel>
+</Window>
