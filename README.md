@@ -15,5 +15,6 @@
   <img width="922" height="680" alt="Снимок экрана 2026-04-22 203957" src="https://github.com/user-attachments/assets/943190d4-bbe9-413a-b661-8fbd52efc30c" />
 <img width="454" height="187" alt="Снимок экрана 2026-04-22 203947" src="https://github.com/user-attachments/assets/e3ffd7df-b671-4b76-b273-bc9b18f814d2" />
 <img width="900" height="609" alt="Снимок экрана 2026-04-22 204114" src="https://github.com/user-attachments/assets/b3c67c2d-db80-48e4-a667-4fcedbf105f0" />
+
 - Контроль остатков
   <img width="922" height="617" alt="Снимок экрана 2026-04-22 201845" src="https://github.com/user-attachments/assets/3d1f3400-6175-41a5-b6ea-e512f382ce32" />
